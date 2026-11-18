@@ -1,6 +1,6 @@
 # La boîte mystère
 
-**20 minutes — En binôme — Méthode inductive**
+**20 minutes — En binôme**
 
 ## Consignes
 
