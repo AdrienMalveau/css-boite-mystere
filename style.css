@@ -1,13 +1,34 @@
-/* Consigne 1 : Donner à la boîte une largeur de 200 px */
+body {
+    background-color: burlywood;
 
-/* Consigne 2 : Ajouter un espace intérieur de 20 px */
+}
 
-/* Consigne 3 : Ajouter une bordure de 5 px, noire et pleine */
 
-/* Consigne 4 : Ajouter un espace extérieur de 30 px */
+h1 {
+    margin: 10px;
+    align-items: center;
+    animation: forwards;
+    font-family: fantasy;
+}
 
-/* Consigne 5 : Passer la boîte en border-box et observer la différence */
 
-/* Consigne 6 : Arrondir les coins de la boîte */
-
-/* Consigne 7 : Ajouter une ombre portée subtile */
+.boite {
+    background-color: black;
+    color: blanchedalmond;
+    font-weight: 100;
+    /* Consigne 1 : Donner à la boîte une largeur de 200 px */
+    width: 200px;
+    /* Consigne 2 : Ajouter un espace intérieur de 20 px */
+    padding: 20px;
+    /* Consigne 3 : Ajouter une bordure de 5 px, noire et pleine */
+    border: 5px solid black;
+    /* Consigne 4 : Ajouter un espace extérieur de 30 px */
+    margin: 30px;
+    /* Consigne 5 : Passer la boîte en border-box et observer la différence */
+    box-sizing: border-box;
+    /* Consigne 6 : Arrondir les coins de la boîte */
+    border-radius: 10%;
+    /* Consigne 7 : Ajouter une ombre portée subtile */
+    box-shadow: 0px 0px 5000px azure;
+    border-style: hidden;
+}
